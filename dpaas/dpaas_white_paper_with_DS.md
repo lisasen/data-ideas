@@ -20,7 +20,7 @@ This page will provide you with a view of Data products and my view on how to us
   - [Technology Stack](#technology-stack)
 - [4. When to Use This Model](#4-when-to-use-this-model)
 - [5. Common Challenges & Consultant Guidance](#5-common-challenges--consultant-guidance)
-- [6. Our Consulting Approach](#6-our-consulting-approach)
+- [6. The Consulting Approach](#6-the-consulting-approach)
 - [7. Real-World Use Case](#7-real-world-use-case)
 - [8. DPaaS Readiness Assessment](#8-dpaas-readiness-assessment)
 - [9. Reference Architecture](#9-reference-architecture)
@@ -110,9 +110,9 @@ Use DPaaS when:
 
 ---
 
-## 6. Our Consulting Approach
+## 6. The Consulting Approach
 
-We follow a vision-led, product-driven consulting model:
+Following a vision-led, product-driven consulting model:
 
 - Assess  
 - Frame opportunity  
@@ -125,12 +125,13 @@ We follow a vision-led, product-driven consulting model:
 
 ## 7. Real-World Use Case
 
-In a CRM migration project, separate teams (engineering, BI, governance) worked independently. Misalignment led to delays and rework.
+In a CRM migration project, separate teams (engineering, BI, governance) worked independently. Misalignment led to challenges like delays, rework and burnout to name a few
 
 With DPaaS:
 - One product owner could define needs  
 - An architect could drive end-to-end design  
-- Governance could be embedded from the start  
+- Governance could be embedded from the start
+- Engineering teams work in tandem.
 - The result: A trusted, scalable, self-service-ready data product
 
 ---
