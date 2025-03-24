@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+permalink: /home/
 ---
 
 Welcome to My Data Innovation Hub.
