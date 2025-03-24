@@ -20,7 +20,7 @@ This section presents our approach to **Data Products as a Service**—how we th
 ## The What
 
 - [What is a Data Product?](dpaas_white_paper_with_DS.md#what-is-a-data-product)
-- [What is a DPaas?](dpaas_white_paper_with_DS.md#what-is-DPaaS?)
+- [What is a DPaas?](dpaas_white_paper_with_DS.md#what-is-dpaaS?)
 - [Team Structure & Roles](dpaas_white_paper_with_DS.md#team-structure-and-delivery-model)
 - [Readiness Assessment](dpaas_white_paper_with_DS.md#dpaas-readiness-assessment)
 - [Optional Accelerators](dpaas_white_paper_with_DS.md#optional-accelerators)
