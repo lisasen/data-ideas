@@ -4,6 +4,6 @@ Here I explore practical, productized, and consultable data strategies for moder
 
 ## 🔍 Featured Ideas
 
-- [Data Products as a Service (DPaaS)](dpaas_section/)
+- [Data Products as a Service (DPaaS)](dpaas_section/dpaas/index.md)
 
 > 🚧 More ideas coming soon.
