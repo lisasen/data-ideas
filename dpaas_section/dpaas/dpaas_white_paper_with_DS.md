@@ -1,6 +1,6 @@
 ---
-layout: default
 title: Data Products as a Service (DPaaS)
+layout: default
 ---
 
 # Data Products as a Service (DPaaS)
