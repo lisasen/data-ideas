@@ -19,15 +19,15 @@ Traditional consulting engagements are siloed. DPaaS brings together data engine
 ## 📚 Table of Contents
 
 - [Executive Summary](./dpaas_white_paper_with_DS.md#executive-summary)
-- [1. Why: The Problem with Siloed Consulting](./dpaas_white_paper_with_DS.md#1-why-the-problem-with-siloed-consulting)
-- [2. What: Defining DPaaS](./dpaas_white_paper_with_DS.md#2-what-defining-data-products-as-a-service)
-- [3. How: Team & Delivery Model](./dpaas_white_paper_with_DS.md#3-how-team-structure-and-delivery-model)
+- [1. Why: The Problem with Siloed Consulting and Disconnected Democratization](./dpaas_white_paper_with_DS.md#1-why-the-problem-with-siloed-consulting-and-disconnected-democratization)
+- [2. What: Defining Data Products as a Service](./dpaas_white_paper_with_DS.md#2-what-defining-data-products-as-a-service)
+- [3. How: Team Structure and Delivery Model](./dpaas_white_paper_with_DS.md#3-how-team-structure-and-delivery-model)
 - [4. When to Use This Model](./dpaas_white_paper_with_DS.md#4-when-to-use-this-model)
-- [5. Challenges & Consultant Guidance](./dpaas_white_paper_with_DS.md#5-common-challenges--consultant-guidance)
+- [5. Challenges & Consultant Guidance](./dpaas_white_paper_with_DS.md#5-common-challenges-consultant-guidance)
 - [6. Our Consulting Approach](./dpaas_white_paper_with_DS.md#6-our-consulting-approach)
 - [7. Real-World Use Case](./dpaas_white_paper_with_DS.md#7-real-world-use-case)
-- [8. Readiness Assessment](./dpaas_white_paper_with_DS.md#8-dpaas-readiness-assessment)
-- [9. Reference Architecture](./dpaas_white_paper_with_DS.md#9-reference-architecture--simplified)
+- [8. DPaaS Readiness Assessment](./dpaas_white_paper_with_DS.md#8-dpaas-readiness-assessment)
+- [9. Reference Architecture](./dpaas_white_paper_with_DS.md#9-reference-architecture)
 - [10. Optional Accelerators](./dpaas_white_paper_with_DS.md#10-optional-accelerators)
 - [11. Conclusion](./dpaas_white_paper_with_DS.md#11-conclusion)
 

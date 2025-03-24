@@ -118,7 +118,7 @@ If “no” to 2 or more: You’re ready for DPaaS.
 
 ---
 
-## 9. Reference Architecture (Simplified)
+## 9. Reference Architecture
 
 **Source Systems** → Ingestion (Airbyte, dbt) → Data Platform (Snowflake) →  
 **Data Product Layer** → Consumption (BI tools, APIs) →  
