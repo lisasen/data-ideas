@@ -13,9 +13,14 @@ This section presents our approach to **Data Products as a Service**—how we th
 
 ---
 
-## 🧩 Core Concepts
+## The Why
+
+- [The Problem](dpaas_white_paper_with_DS.md##1. Why: The Problem with Siloed Consulting and Disconnected Democratization)
+
+## The What
 
 - [What is a Data Product?](dpaas_white_paper_with_DS.md#what-is-a-data-product)
+- [What is a DPaas?](dpaas_white_paper_with_DS.md#what-is-DPaaS?)
 - [Team Structure & Roles](dpaas_white_paper_with_DS.md#team-structure-and-delivery-model)
 - [Readiness Assessment](dpaas_white_paper_with_DS.md#dpaas-readiness-assessment)
 - [Optional Accelerators](dpaas_white_paper_with_DS.md#optional-accelerators)
