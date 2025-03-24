@@ -7,7 +7,7 @@ layout: default
 
 ## 📚 Table of Contents
 
-- [Executive Summary](./dpaas_white_paper_with_DS.md#executive-summary)
+- [Executive Summary](#executive-summary)
 - [1. Why: The Problem with Siloed Consulting and Disconnected Democratization](./dpaas_white_paper_with_DS.md#1-why-the-problem-with-siloed-consulting-and-disconnected-democratization)
 - [2. What: Defining Data Products as a Service](./dpaas_white_paper_with_DS.md#2-what-defining-data-products-as-a-service)
 - [3. How: Team Structure and Delivery Model](./dpaas_white_paper_with_DS.md#3-how-team-structure-and-delivery-model)
