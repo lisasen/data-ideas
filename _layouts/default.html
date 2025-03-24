@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,7 +13,14 @@
         <h1 class="site-title">
           <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
         </h1>
-        <!-- Navigation bar removed -->
+
+        {% if site.header_pages %}
+        <nav class="site-nav">
+          {% for page in site.header_pages %}
+            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          {% endfor %}
+        </nav>
+        {% endif %}
       </div>
     </header>
 
