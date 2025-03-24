@@ -23,7 +23,7 @@ Traditional consulting engagements are siloed. DPaaS brings together data engine
 - [2. What: Defining Data Products as a Service](./dpaas_white_paper_with_DS.md#2-what-defining-data-products-as-a-service)
 - [3. How: Team Structure and Delivery Model](./dpaas_white_paper_with_DS.md#3-how-team-structure-and-delivery-model)
 - [4. When to Use This Model](./dpaas_white_paper_with_DS.md#4-when-to-use-this-model)
-- [5. Common Challenges & Consultant Guidance](./dpaas_white_paper_with_DS.md#5-common-challenges-consultant-guidance)
+- [5. Common Challenges & Consultant Guidance](./dpaas_white_paper_with_DS.md#5-common-challenges--consultant-guidance)
 - [6. Our Consulting Approach](./dpaas_white_paper_with_DS.md#6-our-consulting-approach)
 - [7. Real-World Use Case](./dpaas_white_paper_with_DS.md#7-real-world-use-case)
 - [8. DPaaS Readiness Assessment](./dpaas_white_paper_with_DS.md#8-dpaas-readiness-assessment)
