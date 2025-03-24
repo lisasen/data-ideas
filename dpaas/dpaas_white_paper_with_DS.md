@@ -5,7 +5,7 @@ title: Data Products as a Service (DPaaS)
 
 # Data Products as a Service (DPaaS)
 
-This page will provide you with a view of Data products and how my view on how to use it as a service.
+This page will provide you with a view of Data products and my view on how to use it as a service.
 
 ## 📚 Table of Contents
 
