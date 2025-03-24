@@ -8,12 +8,16 @@
     <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}" />
   </head>
   <body>
+	<div style="color: red; font-weight: bold;">
+	  {% for page in site.header_pages %}
+		[{{ page.title }}] {{ page.path }}<br/>
+	  {% endfor %}
+	</div>
     <header class="site-header">
       <div class="wrapper">
         <h1 class="site-title">
           <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
         </h1>
-
         {% if site.header_pages %}
         <nav class="site-nav">
           {% for page in site.header_pages %}
