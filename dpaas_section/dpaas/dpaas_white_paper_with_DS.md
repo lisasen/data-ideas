@@ -12,7 +12,7 @@ layout: default
 - [2. What: Defining Data Products as a Service](#2-what-defining-data-products-as-a-service)
 - [3. How: Team Structure and Delivery Model](#3-how-team-structure-and-delivery-model)
 - [4. When to Use This Model](#4-when-to-use-this-model)
-	- [What is a Data Product?] (##what-is-a-data-product)
+	- [What is a Data Product?] (#what-is-a-data-product)
 - [5. Common Challenges & Consultant Guidance](#5-common-challenges--consultant-guidance)
 - [6. Our Consulting Approach](#6-our-consulting-approach)
 - [7. Real-World Use Case](#7-real-world-use-case)
