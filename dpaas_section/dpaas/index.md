@@ -1,35 +1,48 @@
+---
+title: Data Products as a Service (DPaaS)
+layout: default
+---
 
 # Data Products as a Service (DPaaS)
-
-Welcome to our consulting framework for building scalable, business-aligned data solutions.
-
-This section presents our approach to **Data Products as a Service**—how we think, deliver, and enable modern data-driven organizations.
+_A Unified Consulting Model for Scalable Data Solutions_
 
 ---
 
-## 📄 White Paper
+## 📘 Overview
 
-👉 [Read the Full White Paper](dpaas_white_paper_with_DS.md)
+Welcome! This site introduces **Data Products as a Service (DPaaS)**—a product-led consulting model designed to help organizations deliver trusted, reusable, and business-aligned data solutions.
 
----
-
-## The Why
-
-- [The Problem](dpaas_white_paper_with_DS.md##1. Why: The Problem with Siloed Consulting and Disconnected Democratization)
-
-## The What
-
-- [What is a Data Product?](dpaas_white_paper_with_DS.md#what-is-a-data-product)
-- [What is a DPaas?](dpaas_white_paper_with_DS.md#what-is-dpaaS?)
-- [Team Structure & Roles](dpaas_white_paper_with_DS.md#team-structure-and-delivery-model)
-- [Readiness Assessment](dpaas_white_paper_with_DS.md#dpaas-readiness-assessment)
-- [Optional Accelerators](dpaas_white_paper_with_DS.md#optional-accelerators)
+Traditional consulting engagements are siloed. DPaaS brings together data engineering, analytics, and governance into a unified delivery approach rooted in product thinking.
 
 ---
 
-## 📂 Resources
+## 📚 Table of Contents
 
-- [📥 Slide Deck (PDF)](downloads/DPaaS_Slide_Deck_with_DS.pdf)
-- [📥 One-Pager (DOCX)](downloads/DPaaS_One_Pager_with_DS.docx)
+- [Executive Summary](./dpaas_white_paper.md#executive-summary)
+- [1. Why: The Problem with Siloed Consulting](./dpaas_white_paper.md#1-why-the-problem-with-siloed-consulting)
+- [2. What: Defining DPaaS](./dpaas_white_paper.md#2-what-defining-data-products-as-a-service)
+- [3. How: Team & Delivery Model](./dpaas_white_paper.md#3-how-team-structure--delivery-model)
+- [4. When to Use This Model](./dpaas_white_paper.md#4-when-to-use-dpaas)
+- [5. Challenges & Consultant Guidance](./dpaas_white_paper.md#5-challenges--consultant-guidance)
+- [6. Our Consulting Approach](./dpaas_white_paper.md#6-our-consulting-approach)
+- [7. Real-World Use Case](./dpaas_white_paper.md#7-real-world-use-case)
+- [8. Readiness Assessment](./dpaas_white_paper.md#8-readiness-assessment)
+- [9. Reference Architecture](./dpaas_white_paper.md#9-reference-architecture)
+- [10. Optional Accelerators](./dpaas_white_paper.md#10-optional-accelerators)
+- [11. Conclusion](./dpaas_white_paper.md#11-conclusion)
 
 ---
+
+## 📄 Downloads
+
+- [Download White Paper (Markdown)](./dpaas_white_paper.md)
+- [Download Slide Deck (PDF)](./DPaaS_Slide_Deck.pdf)
+- [Download One-Pager (DOCX)](./DPaaS_One_Pager.docx)
+
+---
+
+## 🚀 Ready to get started?
+
+Let’s pilot your first data product.  
+**Contact:** [Lisa Iyer] | [lisa.sen.iyer@gmail.com]
+
