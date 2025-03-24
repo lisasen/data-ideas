@@ -36,8 +36,8 @@ Traditional consulting engagements are siloed. DPaaS brings together data engine
 ## 📄 Downloads
 
 - [Download White Paper (Markdown)](./dpaas_white_paper_with_DS.md)
-- [Download Slide Deck (PDF)](./DPaaS_Slide_Deck_with_DS.pdf)
-- [Download One-Pager (DOCX)](./DPaaS_One_Pager_with_DS.docx)
+- [Download Slide Deck (PDF)](./downloads/DPaaS_Slide_Deck_with_DS.pdf)
+- [Download One-Pager (DOCX)](./downloads/DPaaS_One_Pager_with_DS.docx)
 
 ---
 
