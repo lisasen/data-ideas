@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome to My Data Innovation Hub
+title: Home
 ---
 
 Here I explore practical, productized, and consultable data strategies for modern organizations.
