@@ -3,7 +3,7 @@ title: Data Products as a Service
 layout: default
 ---
 
-# Data Products as a Service (DPaaS)
+# Data Products as a Service
 _A Unified Consulting Model for Scalable Data Solutions_
 
 ---
