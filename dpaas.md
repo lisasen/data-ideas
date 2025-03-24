@@ -1,6 +1,7 @@
 ---
 layout: default
-title: DPaaS
+title: Data Products as a Service
+permalink: /dpaas/
 ---
 
 # Data Products as a Service
