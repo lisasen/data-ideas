@@ -6,4 +6,4 @@ markdown: kramdown
 
 header_pages:
   - index.md
-  - dpaas_section/dpaas/index.md
+  - dpaas.md
