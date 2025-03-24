@@ -15,19 +15,12 @@
         </h1>
 
         {% if site.header_pages %}
-		<p style="color: orange;">Header Pages Debug Output:</p>
-		<ul>
-		  {% for page in site.header_pages %}
-			<li>{{ page.path }} – {{ page.title }}</li>
-		  {% endfor %}
-		</ul>
-
-		<nav class="site-nav">
-		  {% for page in site.header_pages %}
-			<a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
-		  {% endfor %}
-		</nav>
-		{% endif %}
+        <nav class="site-nav">
+          {% for page in site.header_pages %}
+            <a class="page-link" href="{{ page.url | relative_url }}">{{ page.title | escape }}</a>
+          {% endfor %}
+        </nav>
+        {% endif %}
       </div>
     </header>
 
