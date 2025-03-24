@@ -8,17 +8,18 @@ layout: default
 ## 📚 Table of Contents
 
 - [Executive Summary](#executive-summary)
-- [1. Why: The Problem with Siloed Consulting and Disconnected Democratization](./dpaas_white_paper_with_DS.md#1-why-the-problem-with-siloed-consulting-and-disconnected-democratization)
-- [2. What: Defining Data Products as a Service](./dpaas_white_paper_with_DS.md#2-what-defining-data-products-as-a-service)
-- [3. How: Team Structure and Delivery Model](./dpaas_white_paper_with_DS.md#3-how-team-structure-and-delivery-model)
-- [4. When to Use This Model](./dpaas_white_paper_with_DS.md#4-when-to-use-this-model)
-- [5. Common Challenges & Consultant Guidance](./dpaas_white_paper_with_DS.md#5-common-challenges--consultant-guidance)
-- [6. Our Consulting Approach](./dpaas_white_paper_with_DS.md#6-our-consulting-approach)
-- [7. Real-World Use Case](./dpaas_white_paper_with_DS.md#7-real-world-use-case)
-- [8. DPaaS Readiness Assessment](./dpaas_white_paper_with_DS.md#8-dpaas-readiness-assessment)
-- [9. Reference Architecture](./dpaas_white_paper_with_DS.md#9-reference-architecture)
-- [10. Optional Accelerators](./dpaas_white_paper_with_DS.md#10-optional-accelerators)
-- [11. Conclusion](./dpaas_white_paper_with_DS.md#11-conclusion)
+- [1. Why: The Problem with Siloed Consulting and Disconnected Democratization](#1-why-the-problem-with-siloed-consulting-and-disconnected-democratization)
+- [2. What: Defining Data Products as a Service](#2-what-defining-data-products-as-a-service)
+- [3. How: Team Structure and Delivery Model](#3-how-team-structure-and-delivery-model)
+- [4. When to Use This Model](#4-when-to-use-this-model)
+	- [What is a Data Product?] (##-what-is-a-data-product)
+- [5. Common Challenges & Consultant Guidance](#5-common-challenges--consultant-guidance)
+- [6. Our Consulting Approach](#6-our-consulting-approach)
+- [7. Real-World Use Case](#7-real-world-use-case)
+- [8. DPaaS Readiness Assessment](#8-dpaas-readiness-assessment)
+- [9. Reference Architecture](#9-reference-architecture)
+- [10. Optional Accelerators](#10-optional-accelerators)
+- [11. Conclusion](#11-conclusion)
 
 
 ## Executive Summary
