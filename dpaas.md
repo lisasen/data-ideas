@@ -18,7 +18,7 @@ Traditional consulting engagements are siloed. DPaaS brings together data engine
 
 ## Data Products as a Service
 
-- [Data Products as a Service (DPaaS)](./dpaas_white_paper_with_DS.md)
+- [Data Products as a Service (DPaaS)](/dpaas/dpaas_white_paper_with_DS.md)
 
 ---
 
