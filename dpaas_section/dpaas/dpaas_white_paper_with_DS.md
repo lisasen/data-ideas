@@ -23,7 +23,7 @@ layout: default
 - [8. DPaaS Readiness Assessment](#8-dpaas-readiness-assessment)
 - [9. Reference Architecture](#9-reference-architecture)
 - [10. Optional Accelerators](#10-optional-accelerators)
-  - [Advanced Analytics & ML Add-Ons](#advanced-analytics-ml-add-ons)
+  - [Advanced Analytics & ML Add-Ons](#advanced-analytics--ml-add-ons)
 - [11. Conclusion](#11-conclusion)
 
 
