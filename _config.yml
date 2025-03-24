@@ -2,3 +2,7 @@ title: My Data Ideas
 description: A hub of productized, strategic data thinking.
 theme: minima
 markdown: kramdown
+
+header_pages:
+  - index.md
+  - dpaas_section/dpaas/index.md
