@@ -22,7 +22,7 @@ This page will provide you with a view of Data products and my view on how to us
   - [Delivery Lifecycle](#delivery-lifecycle)
   - [Technology Stack](#technology-stack)
   - [How Is Different from Traditional Consulting](#how-is-different-from-traditional-consulting)
-- [5. Case Study: CRM Migration at HBP](#4-case-study--crm-migration-at-hbp)
+- [5. Case Study: CRM Migration at HBP](#5-case-study-crm-migration-at-hbp)
 - [6. How DPaaS Supports Strategic Priorities](#6-how-dpass-supports-strategic-priorities)
 - [7. What’s Next](#7-whats-next)
 - [8. Reference Architecture](#8-reference-architecture)
