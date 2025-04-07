@@ -14,7 +14,7 @@ This page will provide you with a view of Data products and my view on how to us
   - [Business Impact](#business-impact)
 - [2. The Problem](#2-the-problem)
   - [Market Research](#market-research)
-- [3. What: Defining Data Products as a Service](#2-what-defining-data-products-as-a-service)
+- [3. What: Defining Data Products as a Service](#3-what-defining-data-products-as-a-service)
   - [What is a Data Product?](#what-is-a-data-product)
   - [What is DPaaS?](#what-is-dpaas)
 - [4. How DPaaS Works](#4-how-dpaas-works)
