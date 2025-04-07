@@ -27,6 +27,7 @@ This page will provide you with a view of Data products and my view on how to us
 - [10. Optional Accelerators](#10-optional-accelerators)
   - [Advanced Analytics & ML Add-Ons](#advanced-analytics--ml-add-ons)
 - [11. Conclusion](#11-conclusion)
+- [12. Important Links](#12-important-links)
 
 
 ## Executive Summary
@@ -178,3 +179,11 @@ It builds alignment, reusability, governance, and trust into every engagement—
 
 **We don’t just build pipelines or dashboards—we build data products that drive business forward.**
 
+## 12. Important Links
+One Pager Link: 
+- [DPASS One Pager](/dpaas_one_pager_with_DS.md)
+
+Download Links: 
+
+- [Download Slide Deck (PDF)](./downloads/DPaaS_Slide_Deck_with_DS.pdf)
+- [Download One-Pager (DOCX)](./downloads/DPaaS_One_Pager_with_DS.docx)
