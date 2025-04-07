@@ -56,7 +56,7 @@ Let's Build Your First Data Product
 
 Start with a 6--12 week pilot to see how DPaaS can shift your data strategy from reactive to product-driven.
 
-Contact: [Your Name] | [Your Email] | [Company Name]
+Contact: Lisa Iyer| lisa.sen.iyer@gmail.com 
 
 - Client SME / Product Owner -- aligns product to business vision
 
