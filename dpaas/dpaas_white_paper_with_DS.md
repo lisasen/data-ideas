@@ -66,7 +66,7 @@ Without a product-first foundation, democratization becomes chaos.
 - **60%** of self-service BI initiatives fail due to lack of data trust (Gartner)  
 - **40%** of analytics projects face delays from siloed delivery (McKinsey)  
 - **70%** of rework stems from misaligned KPIs and delayed governance (internal benchmark)  
-- Millions in wasted effort from duplicate pipelines, disconnected teams, and fragmented tools
+- $M wasted annually in re-engineering dashboards across business units (Forrester)
 
 ---
 
