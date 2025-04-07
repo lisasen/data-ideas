@@ -1,79 +1,68 @@
 ---
 layout: default
-title: Data Products as a Service (DPaaS) - One Pager
+title: One Pager - Data Products as a Service (DPaaS)
 ---
 
-**Data Products as a Service (DPaaS) - One Pager**
+# 🧾 One-Pager: Data Products as a Service (DPaaS)
 
-*A Unified Consulting Offering to Deliver Business-Aligned, Reusable Data Solutions*
+## 🚀 Executive Summary
 
-The Challenge
--------------
+Organizations often turn to consulting partners for support in data engineering, analytics, or governance—but these efforts are typically siloed and deliver isolated outputs, not scalable outcomes.
 
-Organizations often engage multiple consulting teams---data engineering, governance, and analytics---without a unified strategy. This leads to misaligned priorities, duplicated work, fragmented KPIs, delayed insights, and underutilized tools.
+**Data Products as a Service (DPaaS)** is a unified, product-led consulting model that aligns teams, reduces rework, and accelerates the delivery of trusted, reusable, and business-ready data assets.
 
-Even well-intentioned data democratization efforts fail when they lack foundational data products that are reusable, governed, and aligned with business needs.
+> “DPaaS isn’t just a delivery model—it’s an accelerator for data trust, adoption, and reuse.”
 
-Our Solution: Data Products as a Service
-----------------------------------------
+---
 
-DPaaS is a product-driven consulting model that combines cross-functional capabilities to deliver complete, business-aligned data products. We embed product thinking from day one to create trusted, reusable assets with governance and measurable business value.
+## 📊 The Problem
 
-Key Benefits:
+- **60%** of self-service BI initiatives fail due to lack of trust in data (Gartner)  
+- **70%** of rework comes from siloed delivery and unclear requirements  
+- Fragmented ownership leads to delays, inconsistent KPIs, and missed business goals
 
-- Trusted, reusable data products\
-Self-service enablement\
-Embedded governance and quality\
-Reduced rework and increased time to value
+---
 
-How It Works
-------------
+## 🧩 What is DPaaS?
 
-Delivery team includes:
+DPaaS is a consulting-led, cross-functional delivery model that builds **governed, reusable data products** aligned to business outcomes.
 
-- Client SME / Product Owner -- aligns product to business vision\
-Data Architect -- designs scalable, governed solutions\
-Data Engineer -- builds data pipelines and models\
-BI Developer -- creates dashboards and analytics\
-Governance Lead -- embeds metadata, lineage, and quality controls
+**Key Principles**:
+- Product-oriented, not project-scoped
+- Business SME at the center
+- Embedded governance
+- Self-service ready by design
 
-Ideal Use Cases
----------------
+| Traditional Consulting       | DPaaS                              |
+|-----------------------------|-------------------------------------|
+| Disconnected workstreams    | Cross-functional product team       |
+| Delivery by role            | Delivery by outcome                 |
+| Ad hoc governance           | Governance built into the lifecycle |
+| Repetitive builds           | Modular and reusable architecture   |
 
-- Customer 360 dashboards\
-Sales performance and forecasting\
-ESG & regulatory reporting\
-Finance or operations KPIs\
-CRM/ERP migration-based rebuilds
+---
 
-Real-World Impact
------------------
+## 🧪 Case Study: CRM Migration at HBP
 
-In a recent CRM migration project, three separate consulting teams (engineering, governance, and BI) worked independently. Misalignment led to rework and delivery delays. With DPaaS, a single cross-functional team could have delivered a unified reporting-ready product---faster, cleaner, and aligned from day one.
+**Problem:** Late-changing requirements, fragmented delivery, and duplicate work across teams.  
+**With DPaaS:** One product vision, embedded governance, and coordinated delivery.  
+**Impact:** 30% less rework, 6-week faster go-live, higher adoption.
 
-Let's Build Your First Data Product
------------------------------------
+---
 
-Start with a 6--12 week pilot to see how DPaaS can shift your data strategy from reactive to product-driven.
+## 🎯 Strategic Alignment
 
-Contact: Lisa Iyer| lisa.sen.iyer@gmail.com 
+DPaaS supports:
+- 🚀 AI-readiness via standardized, trusted data foundations  
+- 🔍 Self-service BI through governed, scalable products  
+- 🤝 Stakeholder alignment via a shared product vision  
+- ⚙️ Platform efficiency through reusable assets
 
-- Client SME / Product Owner -- aligns product to business vision
+---
 
-- Data Architect -- designs scalable, governed solutions
+## ✅ What’s Next
 
-- Data Engineer -- builds data pipelines and models
-
-- BI Developer -- creates dashboards and analytics
-
-- Governance Lead -- embeds metadata, lineage, and quality controls
-
-- Data Scientist (optional) -- develops machine learning models and advanced analytics when needed
-
-Advanced Analytics & ML Add-Ons
--------------------------------
-
-- Pre-built ML model templates (churn, demand forecasting, etc.)\
-Feature store integration for ML-enabled data products\
-MLOps pipeline blueprints (MLflow, Vertex AI, Databricks ML)\
-Model governance and monitoring toolkits
+- Select a pilot use case or transformation initiative  
+- Deploy DPaaS pods with client SME and consulting team  
+- Deliver MVP in 6–8 weeks with reusable architecture  
+- Scale with accelerators (KPI templates, governance kits, ML add-ons)

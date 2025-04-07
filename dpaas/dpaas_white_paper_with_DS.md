@@ -13,33 +13,33 @@ This page will provide you with a view of Data products and my view on how to us
   - [What is Data Product as a Service](#what-is-data-product-as-a-service)
   - [Business Impact](#business-impact)
 - [2. The Problem](#2-the-problem)
-  - 
+  - [Market Research](#market-research)
 - [3. What: Defining Data Products as a Service](#2-what-defining-data-products-as-a-service)
   - [What is a Data Product?](#what-is-a-data-product)
   - [What is DPaaS?](#what-is-dpaas)
-- [3. How: Team Structure and Delivery Model](#3-how-team-structure-and-delivery-model)
+- [4. How DPaaS Works](#4-how-dpaas-works)
   - [Team Composition](#team-composition)
   - [Delivery Lifecycle](#delivery-lifecycle)
   - [Technology Stack](#technology-stack)
-- [4. When to Use This Model](#4-when-to-use-this-model)
-- [5. Common Challenges & Consultant Guidance](#5-common-challenges--consultant-guidance)
-- [6. The Consulting Approach](#6-the-consulting-approach)
-- [7. Real-World Use Case](#7-real-world-use-case)
-- [8. DPaaS Readiness Assessment](#8-dpaas-readiness-assessment)
-- [9. Reference Architecture](#9-reference-architecture)
-- [10. Optional Accelerators](#10-optional-accelerators)
+  - [How Is Different from Traditional Consulting](#how-is-different-from-traditional-consulting)
+- [5. Case Study: CRM Migration at HBP](#4-case-study--crm-migration-at-hbp)
+- [6. How DPaaS Supports Strategic Priorities](#6-how-dpass-supports-strategic-priorities)
+- [7. What’s Next](#7-whats-next)
+- [8. Reference Architecture](#8-reference-architecture)
+- [9. Optional Accelerators](#9-optional-accelerators)
   - [Advanced Analytics & ML Add-Ons](#advanced-analytics--ml-add-ons)
-- [11. Conclusion](#11-conclusion)
-- [12. Important Links](#12-important-links)
+- [10. Important Links](#10-important-links)
+  - [One Pager Link:](#one-pager-link)
+  - [Download Links:](#download-links)
 
 
-## 1.Executive Summary
+## 1. Executive Summary
 As organizations grow more data-driven, they often turn to consulting firms for specialized support in data engineering, governance, or analytics. Yet these services are frequently delivered in silos—each team working independently on fragmented solutions. This leads to duplicated effort, misaligned metrics, poor adoption, and reactive governance.
 
 ### What is Data Product as a Service
 **Data Products as a Service (DPaaS)** is a unified, product-led consulting model that reduces rework, accelerates time-to-insight, and delivers governed, reusable data assets.
 
-### 🚀 Business Impact
+### Business Impact
 - **40% faster** time to insight by aligning delivery teams from day one
 - **3x higher** adoption of dashboards and KPIs across departments
 - **30% less rework** by embedding governance and product vision upfront
@@ -49,7 +49,7 @@ As organizations grow more data-driven, they often turn to consulting firms for 
 
 ---
 
-## 2.📊 The Problem
+## 2. The Problem
 
 Most consulting projects today are scoped and staffed around narrow work items. What’s missing is **the product**—a durable, discoverable, and trusted asset built with a business outcome in mind.
 
@@ -87,7 +87,7 @@ A data product is more than a dataset or dashboard. It is:
 
 ---
 
-## 4.🧩 How DPaaS Works
+## 4. How DPaaS Works
 
 ### Team Composition
 - **Client-Side**: Product Manager / Business SME  
@@ -120,7 +120,7 @@ A data product is more than a dataset or dashboard. It is:
 
 ---
 
-## 5.🧪 Case Study: CRM Migration at HBP
+## 5. Case Study: CRM Migration at HBP
 
 **Initial Problem:**  
 During a major CRM system migration, three separate consulting teams (engineering, BI, governance) were engaged in parallel. Their scopes were disconnected.
@@ -145,7 +145,7 @@ During a major CRM system migration, three separate consulting teams (engineerin
 
 ---
 
-## 6.🎯 How DPaaS Supports Strategic Priorities
+## 6. How DPaaS Supports Strategic Priorities
 
 - ✅ Enables **AI-readiness** by standardizing data products  
 - ✅ Accelerates **self-service BI** through reusable and governed assets  
@@ -154,7 +154,7 @@ During a major CRM system migration, three separate consulting teams (engineerin
 
 ---
 
-## 7.🚀 What’s Next
+## 7. What’s Next
 
 - Identify a pilot use case or client  
 - Package internal accelerators (KPI templates, starter kits)  
@@ -199,10 +199,6 @@ If “no” to 2 or more: You’re ready for DPaaS.
 ---
 
 ## 10. Important Links
-One Pager Link: 
-- [DPASS One Pager](/dpaas_one_pager_with_DS.md)
 
-Download Links: 
-
-- [Download Slide Deck (PDF)](./downloads/DPaaS_Slide_Deck_with_DS.pdf)
-- [Download One-Pager (DOCX)](./downloads/DPaaS_One_Pager_with_DS.docx)
+### One Pager Link: 
+- [DPaaS One Pager](/dpaas_one_pager_with_DS.md)

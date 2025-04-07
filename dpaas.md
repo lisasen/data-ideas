@@ -17,16 +17,15 @@ Traditional consulting engagements are siloed. DPaaS brings together data engine
 
 ---
 
-## White paper on Data Products as a Service
+## 📄White paper on Data Products as a Service
 
 - [Data Products as a Service (DPaaS)](/dpaas/dpaas_white_paper_with_DS.md)
 
 ---
 
-## 📄 Downloads Links for presentation and one-pager
+## 📄 One-Pager on Data Product as a Service
 
-- [Download Slide Deck (PDF)](./downloads/DPaaS_Slide_Deck_with_DS.pdf)
-- [Download One-Pager (DOCX)](./downloads/DPaaS_One_Pager_with_DS.docx)
+- [One-Pager: Data Products as a Service](/dpaas/dpaas_one_pager_with_DS.md)
 
 ---
 
