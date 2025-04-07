@@ -33,5 +33,5 @@ Traditional consulting engagements are siloed. DPaaS brings together data engine
 ## 🚀 Ready to get started?
 
 Let’s pilot your first data product.  
-**Contact:** [Lisa Iyer] | [lisa.sen.iyer@gmail.com]
+**Contact:** Lisa Iyer | lisa.sen.iyer@gmail.com
 
