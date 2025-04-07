@@ -30,7 +30,6 @@ This page will provide you with a view of Data products and my view on how to us
   - [Advanced Analytics & ML Add-Ons](#advanced-analytics--ml-add-ons)
 - [10. Important Links](#10-important-links)
   - [One Pager Link:](#one-pager-link)
-  - [Download Links:](#download-links)
 
 
 ## 1. Executive Summary
