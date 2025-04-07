@@ -66,3 +66,7 @@ DPaaS supports:
 - Deploy DPaaS pods with client SME and consulting team  
 - Deliver MVP in 6–8 weeks with reusable architecture  
 - Scale with accelerators (KPI templates, governance kits, ML add-ons)
+
+## Supporting Resource
+
+- [DPaaS White Paper](/dpaas_white_paper_with_DS.md)
