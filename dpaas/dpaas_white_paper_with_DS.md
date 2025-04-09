@@ -7,7 +7,7 @@ title: Data Products as a Service (DPaaS)
 
 This page will provide you with a view of Data products and my view on how to use it as a service.
 
-## 📚 Table of Contents
+## Table of Contents
 
 - [1. Executive Summary](#1-executive-summary)
   - [What is Data Product as a Service](#what-is-data-product-as-a-service)
@@ -146,10 +146,10 @@ During a major CRM system migration, three separate consulting teams (engineerin
 
 ## 6. How DPaaS Supports Strategic Priorities
 
-- ✅ Enables **AI-readiness** by standardizing data products  
-- ✅ Accelerates **self-service BI** through reusable and governed assets  
-- ✅ Increases **trust in data** across departments  
-- ✅ Positions your organization to scale **modern data platforms** effectively
+- Enables **AI-readiness** by standardizing data products  
+- Accelerates **self-service BI** through reusable and governed assets  
+- Increases **trust in data** across departments  
+- Positions your organization to scale **modern data platforms** effectively
 
 ---
 

@@ -3,9 +3,9 @@ layout: default
 title: One Pager - Data Products as a Service (DPaaS)
 ---
 
-# 🧾 One-Pager: Data Products as a Service (DPaaS)
+# One-Pager: Data Products as a Service (DPaaS)
 
-## 🚀 Executive Summary
+## Executive Summary
 
 Organizations often turn to consulting partners for support in data engineering, analytics, or governance—but these efforts are typically siloed and deliver isolated outputs, not scalable outcomes.
 
@@ -15,7 +15,7 @@ Organizations often turn to consulting partners for support in data engineering,
 
 ---
 
-## 📊 The Problem
+## The Problem
 
 - **60%** of self-service BI initiatives fail due to lack of trust in data (Gartner)  
 - **70%** of rework comes from siloed delivery and unclear requirements  
@@ -23,7 +23,7 @@ Organizations often turn to consulting partners for support in data engineering,
 
 ---
 
-## 🧩 What is DPaaS?
+## What is DPaaS?
 
 DPaaS is a consulting-led, cross-functional delivery model that builds **governed, reusable data products** aligned to business outcomes.
 
@@ -42,7 +42,7 @@ DPaaS is a consulting-led, cross-functional delivery model that builds **governe
 
 ---
 
-## 🧪 Case Study: CRM Migration at HBP
+## Case Study: CRM Migration at HBP
 
 **Problem:** Late-changing requirements, fragmented delivery, and duplicate work across teams.  
 **With DPaaS:** One product vision, embedded governance, and coordinated delivery.  
@@ -50,17 +50,17 @@ DPaaS is a consulting-led, cross-functional delivery model that builds **governe
 
 ---
 
-## 🎯 Strategic Alignment
+## Strategic Alignment
 
 DPaaS supports:
-- 🚀 AI-readiness via standardized, trusted data foundations  
-- 🔍 Self-service BI through governed, scalable products  
-- 🤝 Stakeholder alignment via a shared product vision  
-- ⚙️ Platform efficiency through reusable assets
+- AI-readiness via standardized, trusted data foundations  
+- Self-service BI through governed, scalable products  
+- Stakeholder alignment via a shared product vision  
+- Platform efficiency through reusable assets
 
 ---
 
-## ✅ What’s Next
+## What’s Next
 
 - Select a pilot use case or transformation initiative  
 - Deploy DPaaS pods with client SME and consulting team  
