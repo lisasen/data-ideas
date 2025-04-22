@@ -40,6 +40,14 @@ DPaaS is a consulting-led, cross-functional delivery model that builds **governe
 | Ad hoc governance           | Governance built into the lifecycle |
 | Repetitive builds           | Modular and reusable architecture   |
 
+
+Example of a before and after DPaaS
+
+|Before (Traditional Delivery)      | After (Data Product Model)                 |
+|-----------------------------------|--------------------------------------------|
+|Project 1: Engineering only        | Data Product: Aligned team w/ shared goals |
+|Project 2: BI working in isolation | Governance embedded from day one           |  
+|Governance comes late              | Clear ownership + feedback loops           |
 ---
 
 ## Case Study: CRM Migration at HBP

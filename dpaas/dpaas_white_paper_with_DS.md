@@ -88,23 +88,52 @@ A data product is more than a dataset or dashboard. It is:
 
 ## 4. How DPaaS Works
 
+> **DPaaS is not a sequence of phases—it’s a living product lifecycle.**  
+> Teams work in short, iterative sprints, continuously evolving the data product based on business feedback, adoption metrics, and platform maturity.
+
+
 ### Team Composition
 - **Client-Side**: Product Manager / Business SME  
 - **Consulting Team**: Data Architect, Data Engineer, BI Developer, Governance Lead
 
-### Delivery Lifecycle
-1. Discover: Understand business needs  
-2. Design: Define architecture, models, and KPIs  
-3. Build MVP  
-4. Iterate based on feedback  
-5. Enable self-service  
-6. Evolve and scale
+### Product-Led Agile Lifecycle
+1. Align on Opportunity  
+   - Identify the business outcome and stakeholder needs  
+   - Define KPIs, trust expectations, and success metrics  
+   - Shape MVP scope and delivery backlog
+
+2. Deliver MVP
+   - Build MVP across engineering, BI, and governance  
+   - Baseline discoverability, quality, and usability
+
+3. Iterate based on feedback
+   - Capture stakeholder feedback, adoption signals, and gaps  
+   - Refine metrics, visuals, access patterns, and performance  
+   - Continue delivering value every 2–3 weeks
+
+4. Enable self-service  
+   - Empower users with documentation, training, and support
+
+5. Evolve and scale
+   - Operationalize the product for scale (alerts, lineage, reuse)  
+   - Extend to new use cases or audiences as needed
+
+![Data Product Lifecyle](./images/Lifecycle.png)
 
 ### Technology Stack 
 - **Data Platforms**: Databricks, Snowflake 
 - **Transformation**: dbt, Spark, ETL Tools 
 - **Visualization**: Tableau, Power BI, Qlik  
 - **Governance**: Atlan, Alation, Collebra
+- **Product Management(If not already present)**: Jira, AHA, ProductBoard
+
+### 	Supporting Practices
+
+- **Shared Backlogs**: All roles contribute to a unified backlog of features and fixes  
+- **Embedded Governance**: Validation, lineage, and documentation are part of “done”  
+- **Stakeholder Reviews**: Sprint reviews and demos build continuous alignment  
+- **Measurement**: Track adoption, feedback, and data product health as part of delivery
+
 
 
 ### How Is Different from Traditional Consulting
@@ -178,6 +207,15 @@ If “no” to 2 or more: You’re ready for DPaaS.
 **Source Systems** → Ingestion (Airbyte, dbt) → Data Platform (Snowflake) →  
 **Data Product Layer** → Consumption (BI tools, APIs) →  
 **Governance Layer** (Lineage, Metadata, Access)
+
++----------------------------+
+|     Consumption Layer      | ← Dashboards, APIs, Analysts
++----------------------------+
+|     Data Product Layer     | ← Metric store, curated views, models
++----------------------------+
+|  Data Platform & Pipeline  | ← Lakehouse, dbt, pipelines
++----------------------------+
+|     Source Systems         | ← CRM, ERP, external data
 
 ---
 
