@@ -1,0 +1,5 @@
+app/.venv/
+__pycache__/
+*.pyc
+app/data/site_enrollment_cache.json
+app/data/cache_meta.json
