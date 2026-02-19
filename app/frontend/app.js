@@ -1,96 +1,114 @@
-const { useEffect, useMemo, useRef, useState } = React;
+function el(tag, attrs = {}, children = []) {
+  const node = document.createElement(tag);
+  Object.entries(attrs).forEach(([k, v]) => {
+    if (k === 'className') node.className = v;
+    else if (k.startsWith('on') && typeof v === 'function') node.addEventListener(k.slice(2).toLowerCase(), v);
+    else node.setAttribute(k, v);
+  });
+  (Array.isArray(children) ? children : [children]).forEach((c) => {
+    if (c === null || c === undefined) return;
+    node.appendChild(typeof c === 'string' || typeof c === 'number' ? document.createTextNode(String(c)) : c);
+  });
+  return node;
+}
 
-function App() {
-  const [filters, setFilters] = useState({ regions: [], countries: [], therapeutic_areas: [], indication_classes: [] });
-  const [region, setRegion] = useState("");
-  const [country, setCountry] = useState("");
-  const [ta, setTa] = useState("");
-  const [indication, setIndication] = useState("");
-  const [data, setData] = useState(null);
-  const chartRef = useRef(null);
-  const chartInstanceRef = useRef(null);
+async function fetchJSON(url) {
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return res.json();
+}
 
-  useEffect(() => {
-    fetch('/api/filters').then(r => r.json()).then(setFilters);
-  }, []);
+function buildDropdown(label, options, value, onChange) {
+  const select = el('select', { onchange: (e) => onChange(e.target.value) }, [el('option', { value: '' }, 'All')]);
+  options.forEach((o) => select.appendChild(el('option', { value: o }, o)));
+  select.value = value || '';
+  return el('label', { className: 'dropdown' }, [el('span', {}, label), select]);
+}
 
-  const query = useMemo(() => {
-    const p = new URLSearchParams();
-    if (region) p.set('region', region);
-    if (country) p.set('country', country);
-    if (ta) p.set('ta', ta);
-    if (indication) p.set('indication', indication);
-    return p.toString();
-  }, [region, country, ta, indication]);
+function buildTable(title, headers, rows) {
+  const theadRow = el('tr', {}, headers.map((h) => el('th', {}, h)));
+  const tbody = el('tbody');
+  rows.forEach((r) => tbody.appendChild(el('tr', {}, r.map((c) => el('td', {}, c)))));
+  return el('div', { className: 'card' }, [
+    el('h3', {}, title),
+    el('table', {}, [el('thead', {}, [theadRow]), tbody]),
+  ]);
+}
 
-  useEffect(() => {
-    fetch(`/api/enrollment?${query}`).then(r => r.json()).then(setData);
-  }, [query]);
+function buildSimpleBarChart(planned, actual) {
+  const maxVal = Math.max(planned, actual, 1);
+  const plannedPct = Math.round((planned / maxVal) * 100);
+  const actualPct = Math.round((actual / maxVal) * 100);
 
-  useEffect(() => {
-    if (!data || !chartRef.current) return;
-    const ctx = chartRef.current.getContext('2d');
+  const bar = (label, value, pct, cls) => el('div', { className: 'bar-row' }, [
+    el('div', { className: 'bar-label' }, label),
+    el('div', { className: 'bar-track' }, [
+      el('div', { className: `bar-fill ${cls}`, style: `width:${pct}%` }, String(value)),
+    ]),
+  ]);
 
-    if (chartInstanceRef.current) {
-      chartInstanceRef.current.destroy();
+  return el('div', { className: 'card chart-card' }, [
+    el('h3', {}, 'Planned vs Actual Enrollment'),
+    bar('Planned', planned, plannedPct, 'planned'),
+    bar('Actual', actual, actualPct, 'actual'),
+  ]);
+}
+
+async function init() {
+  const root = document.getElementById('root');
+  const state = { filters: null, data: null, region: '', country: '', ta: '', indication: '' };
+
+  async function reloadData() {
+    const query = new URLSearchParams();
+    if (state.region) query.set('region', state.region);
+    if (state.country) query.set('country', state.country);
+    if (state.ta) query.set('ta', state.ta);
+    if (state.indication) query.set('indication', state.indication);
+    state.data = await fetchJSON(`/api/enrollment?${query.toString()}`);
+    render();
+  }
+
+  function render() {
+    root.innerHTML = '';
+    if (!state.filters || !state.data) {
+      root.appendChild(el('div', { className: 'container' }, [el('p', {}, 'Loading...')]));
+      return;
     }
 
-    chartInstanceRef.current = new Chart(ctx, {
-      type: 'bar',
-      data: {
-        labels: ['Planned Enrollment', 'Actual Enrollment'],
-        datasets: [{
-          label: 'Enrollment Count',
-          data: [data.summary.planned, data.summary.actual],
-          backgroundColor: ['#1f77b4', '#2ca02c']
-        }]
-      },
-      options: { responsive: true, plugins: { legend: { display: false } } }
-    });
-  }, [data]);
+    const filters = el('div', { className: 'filters' }, [
+      buildDropdown('WHO Region', state.filters.regions, state.region, (v) => { state.region = v; reloadData(); }),
+      buildDropdown('Country', state.filters.countries, state.country, (v) => { state.country = v; reloadData(); }),
+      buildDropdown('Therapeutic Area', state.filters.therapeutic_areas, state.ta, (v) => { state.ta = v; reloadData(); }),
+      buildDropdown('Indication Class', state.filters.indication_classes, state.indication, (v) => { state.indication = v; reloadData(); }),
+    ]);
 
-  return React.createElement('div', { className: 'container' }, [
-    React.createElement('h1', { key: 'h' }, 'Clinical Trial Operational Analytics'),
-    React.createElement('p', { key: 'p', className: 'subtitle' }, 'ClinicalTrials.gov-powered site and country enrollment tracking'),
+    const countryRows = state.data.by_country.map((x) => [x.country, x.planned, x.actual]);
+    const siteRows = state.data.by_site.map((x) => [x.site_name, x.country, x.planned, x.actual]);
 
-    React.createElement('div', { key: 'filters', className: 'filters' }, [
-      dropdown('WHO Region', region, setRegion, filters.regions),
-      dropdown('Country', country, setCountry, filters.countries),
-      dropdown('Therapeutic Area', ta, setTa, filters.therapeutic_areas),
-      dropdown('Indication Class', indication, setIndication, filters.indication_classes)
-    ]),
+    root.appendChild(el('div', { className: 'container' }, [
+      el('h1', {}, 'Clinical Trial Operational Analytics'),
+      el('p', { className: 'subtitle' }, 'Operational enrollment tracking by WHO region, country, and therapeutic area'),
+      filters,
+      buildSimpleBarChart(state.data.summary.planned, state.data.summary.actual),
+      el('div', { className: 'grid' }, [
+        buildTable('Country Enrollment (Top 50)', ['Country', 'Planned', 'Actual'], countryRows),
+        buildTable('Site Enrollment (Top 100)', ['Site', 'Country', 'Planned', 'Actual'], siteRows),
+      ]),
+      el('div', { className: 'footnote' }, `Source: ${state.data.source.join(', ')} • Last generated: ${new Date(state.data.generated_at).toLocaleString()}`),
+    ]));
+  }
 
-    React.createElement('div', { key: 'card', className: 'card chart-card' },
-      React.createElement('canvas', { ref: chartRef, height: 120 })
-    ),
-
-    data && React.createElement('div', { key: 'tables', className: 'grid' }, [
-      renderTable('Country Enrollment (Top 50)', ['Country', 'Planned', 'Actual'], data.by_country.map(x => [x.country, x.planned, x.actual])),
-      renderTable('Site Enrollment (Top 100)', ['Site', 'Country', 'Planned', 'Actual'], data.by_site.map(x => [x.site_name, x.country, x.planned, x.actual]))
-    ]),
-
-    data && React.createElement('div', { key: 'f', className: 'footnote' }, `Source: ${data.source.join(', ')} • Last generated: ${new Date(data.generated_at).toLocaleString()}`)
-  ]);
+  try {
+    state.filters = await fetchJSON('/api/filters');
+    await reloadData();
+  } catch (err) {
+    root.innerHTML = '';
+    root.appendChild(el('div', { className: 'container' }, [
+      el('h2', {}, 'Unable to load dashboard'),
+      el('p', {}, `Error: ${err.message}`),
+      el('p', {}, 'Please ensure backend is running with: python app/backend/server.py'),
+    ]));
+  }
 }
 
-function dropdown(label, value, setter, options) {
-  return React.createElement('label', { className: 'dropdown', key: label }, [
-    React.createElement('span', { key: 's' }, label),
-    React.createElement('select', { key: 'd', value, onChange: e => setter(e.target.value) }, [
-      React.createElement('option', { key: 'all', value: '' }, 'All'),
-      ...(options || []).map(o => React.createElement('option', { key: o, value: o }, o))
-    ])
-  ]);
-}
-
-function renderTable(title, headers, rows) {
-  return React.createElement('div', { className: 'card', key: title }, [
-    React.createElement('h3', { key: 't' }, title),
-    React.createElement('table', { key: 'tb' }, [
-      React.createElement('thead', { key: 'h' }, React.createElement('tr', {}, headers.map(h => React.createElement('th', { key: h }, h)))),
-      React.createElement('tbody', { key: 'b' }, rows.map((r, i) => React.createElement('tr', { key: `${title}-${i}` }, r.map((c, j) => React.createElement('td', { key: `${i}-${j}` }, c)))))
-    ])
-  ]);
-}
-
-ReactDOM.createRoot(document.getElementById('root')).render(React.createElement(App));
+init();

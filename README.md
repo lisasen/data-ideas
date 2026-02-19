@@ -16,7 +16,7 @@ This repository now includes an MVP website for clinical trial operational analy
 
 ## Tech stack
 
-- Frontend: React (single-page, CDN runtime)
+- Frontend: Single-page JavaScript (no external CDN dependencies)
 - Backend: Python (standard library HTTP server)
 - Deployment target: AWS-friendly (container/EC2 compatible)
 
