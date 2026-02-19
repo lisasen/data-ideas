@@ -1,0 +1,15 @@
+{
+  "site_rows": [
+    {"nct_id":"NCT00000001","site_name":"Mayo Clinic","country":"United States","region":"AMRO","therapeutic_area":"Oncology","indication_class":"Oncologic","planned_enrollment":120,"actual_enrollment":90},
+    {"nct_id":"NCT00000001","site_name":"Mass General Hospital","country":"United States","region":"AMRO","therapeutic_area":"Oncology","indication_class":"Oncologic","planned_enrollment":120,"actual_enrollment":90},
+    {"nct_id":"NCT00000002","site_name":"Charité Berlin","country":"Germany","region":"EURO","therapeutic_area":"Neurology","indication_class":"Chronic","planned_enrollment":80,"actual_enrollment":56},
+    {"nct_id":"NCT00000002","site_name":"University Hospital Munich","country":"Germany","region":"EURO","therapeutic_area":"Neurology","indication_class":"Chronic","planned_enrollment":80,"actual_enrollment":56},
+    {"nct_id":"NCT00000003","site_name":"Apollo Hospitals","country":"India","region":"SEARO","therapeutic_area":"Endocrinology","indication_class":"Chronic","planned_enrollment":100,"actual_enrollment":60},
+    {"nct_id":"NCT00000003","site_name":"AIIMS Delhi","country":"India","region":"SEARO","therapeutic_area":"Endocrinology","indication_class":"Chronic","planned_enrollment":100,"actual_enrollment":60},
+    {"nct_id":"NCT00000004","site_name":"Royal Prince Alfred Hospital","country":"Australia","region":"WPRO","therapeutic_area":"Respiratory","indication_class":"Chronic","planned_enrollment":60,"actual_enrollment":42},
+    {"nct_id":"NCT00000005","site_name":"Groote Schuur Hospital","country":"South Africa","region":"AFRO","therapeutic_area":"Infectious Diseases","indication_class":"Infectious","planned_enrollment":70,"actual_enrollment":49},
+    {"nct_id":"NCT00000006","site_name":"Hamad Medical Corporation","country":"Qatar","region":"EMRO","therapeutic_area":"Cardiology","indication_class":"Chronic","planned_enrollment":50,"actual_enrollment":35}
+  ],
+  "generated_at": "2026-01-01T00:00:00+00:00",
+  "source": ["ClinicalTrials.gov v2 API (fallback sample due to network restrictions)"]
+}
